@@ -1,15 +1,14 @@
 # simoparc
 
-## Installation
+## Installation (develop)
 
-1. conda create -n simoparc python=3 mne
-1. source activate simoparc
-1. python setup.py install
-
-## Usage
-
-1. source activate simoparc
-1. python -i examples/create\_parc.py
+1. Clone (and fork)
+1. Create dedicated environment: conda create -n simoparc -c conda-forge python=3
+1. Run: conda activate simoparc
+1. Install mne with preferred method to the environment.
+1. Enter the simoparc package directory
+1. Run: python setup.py develop
+1. Run the example: python -i examples/create\_parc.py
 
 ## License
 
